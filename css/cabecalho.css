@@ -1,0 +1,34 @@
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: var(--backgroundcabecalho);
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    padding-top: 3rem;
+    padding-bottom: .5rem;
+
+}
+
+.cabecalho__logo {
+
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.cabecalho__icons{
+    display: flex;
+    gap: .10rem;
+    margin-right: .6rem;
+   
+}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+  background-color: black;
+}
+
+.carousel-indicators{
+  
+  background-color: rgba(0, 0, 0, 0.61);
+}

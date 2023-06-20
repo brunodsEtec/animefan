@@ -1,0 +1,13 @@
+.carrossel{ 
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    background-color: black;
+  }
+  
+  .carousel-indicators{
+    
+    background-color: rgba(0, 0, 0, 0.61);
+  }

@@ -1,0 +1,31 @@
+footer {
+     display: flex;
+    flex-direction: column;
+  
+    width: 100vw;
+    background-color: var(--backgroundcabecalho);
+    
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    padding-top: 0rem;
+    padding-bottom: 4rem;
+}
+
+.footer__logo {
+    align-self: flex-end;
+   
+}
+.cabecalho__icons__footer {
+    display: flex;
+
+    gap: .10rem;
+
+}
+.copyright {
+width: 30%;
+padding-top: 0;
+margin-top: 0;
+align-self: flex-end;
+padding-right: 1.5rem;
+}
